@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>KHẢO SÁT NHU CẦU ĐÀO TẠO CHUYÊN MÔN CHO NHÂN VIÊN TẠI CÁC THẨM MỸ VIỆN, PHÒNG KHÁM DA LIỄU, SPA...</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="https://thammy.top/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link href="https://thammy.top/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+label,#TongKet {
+display:block;
+margin:0.26em 0.82em;
+font-style:italic;
+cursor:pointer;
+font-size:1.3em;
+}
+input {
+margin-right: 0.5em;
+max-width:100%;
+}
+img {
+max-width:100%;
+}
+li {
+margin-left:1.3em;
+}
+#TongKet input {
+width:100%;
+padding:0.5em;
+margin:0.26em auto;
+border-radius:8px;
+}
+</style>
+</head>
+<body>
+<div method="get" target="_blank" class="container-fluid">
+	<img src="https://ThamMy.top/images/Banner-KhaoSat.webp"/>
+	<div class="p-5">
+	<h2 class="text-center mt-3">KHẢO SÁT NHU CẦU ĐÀO TẠO CHUYÊN MÔN CHO NHÂN VIÊN TẠI CÁC THẨM MỸ VIỆN, PHÒNG KHÁM DA LIỄU, SPA...</h2>
+
+		<div class="row QnA">
+			<h4 data-tieude="Nội dung đào tạo:">1. Anh/Chị mong muốn bản thân hoặc nhân viên của mình được đào tạo nội dung gì?</h4>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Nâng cơ</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Triệt lông</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Trị nám</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Xoá xăm</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Trị sẹo</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Giảm béo</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Trẻ hoá da</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Trị mụn</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Xoá nhăn</label>
+				<label><input name="NoiDungDaoTao" type="checkbox"/>Điều trị mạch máu</label>
+				<label><input name="NoiDungDaoTao" placeholder="Nội dung khác"/></label>
+		</div>
+
+		<div class="row QnA">
+			<h4 data-tieude="Hình thức đào tạo:">2. Anh/Chị mong muốn được đào tạo theo hình thức nào?</h4>
+				<label><input name="HinhThucDaoTao" type="checkbox"/>Đào tạo tại học viện</label>
+				<label><input name="HinhThucDaoTao" type="checkbox"/>Đào tạo tại cơ sở của mình</label>
+				<label><input name="HinhThucDaoTao" type="checkbox"/>Đào tạo online</label>
+				<label><input name="HinhThucDaoTao" placeholder="Hình thức khác"/></label>
+		</div>
+
+		<div class="row QnA">
+			<h4 data-tieude="Thời gian đào tạo:">3. Thời điểm nào thích hợp để Anh/Chị có thể tham gia đào tạo?</h4>
+				<label><input name="ThoiDiemDaoTao" type="checkbox"/>Càng sớm càng tốt</label>
+				<label><input name="ThoiDiemDaoTao" type="checkbox"/>Trong vòng 01 tháng tới</label>
+				<label><input name="ThoiDiemDaoTao" type="checkbox"/>Trong vòng 03 tháng tới</label>
+				<label><input name="ThoiDiemDaoTao" type="checkbox"/>Trong vòng 06 tháng tới</label>
+				<label><input name="ThoiDiemDaoTao" type="checkbox"/>Trong vòng 12 tháng tới</label>
+				<label><input name="ThoiDiemDaoTao" placeholder="Thời điểm khác"/></label>
+		</div>
+
+		<div class="row QnA">
+			<h4 data-tieude="Người thực hiện dịch vụ:">4. Tại cơ sở của Anh/Chị, ai là người trực tiếp thực hiện các dịch vụ mà khách hàng yêu cầu?</h4>
+				<label><input name="NguoiLamDichVu" type="checkbox"/>Chủ</label>
+				<label><input name="NguoiLamDichVu" type="checkbox"/>Quản lý</label>
+				<label><input name="NguoiLamDichVu" type="checkbox"/>Nhân viên của cơ sở</label>
+				<label><input name="NguoiLamDichVu" type="checkbox"/>Nhân viên thuê ngoài</label>
+				<label><input name="NguoiLamDichVu" placeholder="Người khác"/></label>
+		</div>
+
+		<div class="row QnA">
+			<h4 data-tieude="Thế mạnh của cơ sở:">5. Cơ sở của Anh/Chị có những thế mạnh gì?</h4>
+				<label><input name="DichVu" data-show="ChiTietNangCo" type="checkbox" value="NangCo"/>Nâng cơ</label>
+				<label><input name="DichVu" data-show="ChiTietTrietLong" type="checkbox" value="TrietLong"/>Triệt lông</label>
+				<label><input name="DichVu" data-show="ChiTietTriNam" type="checkbox" value="TriNam"/>Trị nám</label>
+				<label><input name="DichVu" data-show="ChiTietXoaXam" type="checkbox" value="XoaXam"/>Xoá xăm</label>
+				<label><input name="DichVu" data-show="ChiTietTriSeo" type="checkbox" value="TriSeo"/>Trị sẹo</label>
+				<label><input name="DichVu" data-show="ChiTietGiamBeo" type="checkbox" value="GiamBeo"/>Giảm béo</label>
+				<label><input name="DichVu" data-show="ChiTietTreHoaDa" type="checkbox" value="TreHoaDa"/>Trẻ hoá da</label>
+				<label><input name="DichVu" data-show="ChiTietTriMun" type="checkbox" value="TriMun"/>Trị mụn</label>
+				<label><input name="DichVu" data-show="ChiTietXoaNhan" type="checkbox" value="XoaNhan"/>Xoá nhăn</label>
+				<label><input name="DichVu" data-show="ChiTietDieuTriMachMau" type="checkbox" value="DieuTriMachMau"/>Điều trị mạch máu</label>
+				<label><input name="DichVu" placeholder="Dịch vụ khác"/></label>
+		</div>
+
+		<div id="DichVu" class="QnADetail">
+			<div id="ChiTietNangCo">
+				<h6>Với dịch vụ nâng cơ, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuNangCo" type="checkbox"/>RF</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Er:YAG</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Áp lực khí</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Hồng Ngoại (IR)</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Needle Fractional RF</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Pico MLA</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Fractional CO2</label>
+					<label><input name="DichVuNangCo" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietTrietLong" class="QnADetail">
+				<h6>Với dịch vụ triệt lông, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuTrietLong" type="checkbox"/>Diode laser</label>
+					<label><input name="DichVuTrietLong" type="checkbox"/>IPL</label>
+					<label><input name="DichVuTrietLong" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuTrietLong" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietTriNam" class="QnADetail">
+				<h6>Với dịch vụ trị nám, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuTriNam" type="checkbox"/>Pico</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Q-Switch</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Fractional RF Needle</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Er:YAG</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Er:Glass</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Thulium</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>IPL</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Led</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Laser lạnh</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Plasma</label>
+					<label><input name="DichVuTriNam" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietXoaXam" class="QnADetail">
+				<h6>Với dịch vụ xoá xăm, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Pico Nd:YAG</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Pico Alexandrite</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Pico Ruby</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Q-Switch Nd:YAG</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Q-Switch Alexandrite</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Q-Switch Ruby</label>
+					<label><input name="DichVuXoaXam" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietTriSeo" class="QnADetail">
+				<h6>Với dịch vụ trị sẹo, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional CO2</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Needle</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Er:YAG</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Pico MLA</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Tiêm áp suất Nano</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Hệ thống kim cắt đáy sẹo</label>
+					<label><input name="DichVuTriSeo" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietTriSeo" class="QnADetail">
+				<h6>Với dịch vụ trị sẹo, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional CO2</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Needle</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Er:YAG</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Pico MLA</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Tiêm áp suất Nano</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Hệ thống kim cắt đáy sẹo</label>
+					<label><input name="DichVuTriSeo" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietGiamBeo" class="QnADetail">
+				<h6>Với dịch vụ giảm béo, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>RF</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Từ trường (Vận động cơ)</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Giảm béo lạnh</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Laser Diode</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Vi sóng</label>
+					<label><input name="DichVuGiamBeo" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietTreHoaDa" class="QnADetail">
+				<h6>Với dịch vụ trẻ hoá da, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>RF</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>IPL</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Hồng Ngoại (IR)</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Fractional Pico</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Fractional RF</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Q-Switch</label>
+					<label><input name="DichVuTreHoaDa" placeholder="Công nghệ khác"/></label>
+			</div>
+  
+			<div id="ChiTietTriMun" class="QnADetail">
+				<h6>Với dịch vụ trị mụn, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuTriMun" type="checkbox"/>Laser xung dài: AYG</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>IPL</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Fractional Needle</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Diode Laser</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Ánh sáng led PDT</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Plasma</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Oxyjet</label>
+					<label><input name="DichVuTriMun" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietXoaNhan" class="QnADetail">
+				<h6>Với dịch vụ xoá nhăn, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>RF</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Hồng Ngoại (IR)</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Fractional Pico</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Fractional RF</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuXoaNhan" placeholder="Công nghệ khác"/></label>
+			</div>
+
+			<div id="ChiTietDieuTriMachMau" class="QnADetail">
+				<h6>Với dịch vụ điều trị mạch máu, Anh/Chị đang sử dụng những công nghệ nào?</h6>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>Dye Laser</label>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>Long Pulse</label>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>IPL</label>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>SmartCure</label>
+					<label><input name="DichVuDieuTriMachMau" placeholder="Công nghệ khác"/></label>
+			</div>
+
+		</div><!-- DichVu -->
+
+		<div class="pt-5">
+			<input id="TongHop" type="button" value="Tổng kết" class="text-center" style="width:100%;">
+		</div>
+
+		<form class="pt-5" id="TongKet"></form>
+		<input type="button" id="Finish" value="Kết thúc"/>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$('input[type="checkbox"]').each(function(){
+		var TheVal=($(this).val()=="on") ? $(this).parent().text() : $(this).val();
+		$(this).val(TheVal);
+	});
+	
+	$('div[id^="ChiTiet"]').css({"display":"none"});
+	
+	$("body").bind("click","#CongNghe",function(){
+		$('input[name="DichVu"]').each(function(){
+			if ($(this).is(':checked')) {
+				$('#'+$(this).data("show")).css({"display":"block"});
+			}
+			else {
+				$('#'+$(this).data("show")).css({"display":"none"});
+			}
+		});
+	});
+
+	$("h4").addClass("mt-5");
+
+	$("body").on("click","#TongHop",function(){
+		var Result='<textarea id="NoiDungKhaoSat" name="NoiDungKhaoSat" style="width:100%;border:none">';
+		
+		$("div.QnA").each(function(){
+			Result+=$(this).find("h4").data("tieude")+"\n";
+			var CheckBoxes=$(this).find('input[type="checkbox"]');
+			CheckBoxes.each(function(){
+				if ($(this).is(":checked")) {
+					Result+='\t* '+$(this).parent().text()+"\n";
+						$("#"+$(this).data("show")).find('input[type="checkbox"]').each(function(){
+							if ($(this).is(":checked")) {
+								Result+='\t\t- '+$(this).parent().text()+"\n";
+							}
+						});
+				}
+			});
+		});
+
+		Result+='</textarea>';
+		Result+=`
+		<h4>Khảo sát được thực hiện vào thời điểm `;
+		var dt=new Date();
+		var ThoiGian=+dt.getFullYear()+'/'+(dt.getMonth()+1)+'/'+dt.getDate()+' @ '+dt.getHours()+":"+dt.getMinutes();
+		Result+=ThoiGian+`, tại:</h4>
+		<input name="ThoiGian" value="`+ThoiGian+`" type="hidden"/>
+		<input name="TenCoSo" placeholder="Tên cơ sở..."/>
+		<input name="DiaChiCoSo" placeholder="Địa chỉ cơ sở..."/>
+		<input name="TenKhach" placeholder="Tên người được phỏng vấn..."/>
+		<input name="ChucDanhKhach" placeholder="Chức danh..."/>
+		<input name="DienThoaiKhach" placeholder="Điện thoại..."/>
+		<input name="EmailKhach" placeholder="Email..."/>
+		`;
+		$("#TongKet").html(Result.trim());
+		var NoiDungKhaoSatHeight=document.getElementById("NoiDungKhaoSat").scrollHeight;
+		$("#NoiDungKhaoSat").css({"height":NoiDungKhaoSatHeight});
+	});
+
+	$("body").on("click","#Finish",function(){
+		var data=$('form#TongKet').serialize();
+		console.log(data);
+		$.ajax({
+		  type : 'GET', 
+		  url : 'https://script.google.com/macros/s/AKfycbwKyXQzOu4fjI-TkyhK1077F85EeqPORCd5qze4Sxyclz7M0UAQHHy3UQPg3KxKO_XM/exec',
+		  dataType:'json',
+		  crossDomain : true,
+		  data : data,
+		  success : function() {alert('Cảm ơn Anh/Chị đã tham gia khảo sát!');},
+		  error : function(data) {console.log(data.responseText);},
+		});
+	});
+
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Khảo sát ý kiến Chủ/Quản lý Thẩm mỹ viện, Spa, Phòng khám...</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link href="https://thammy.top/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+label {
+display:block;
+margin:0.26em 0.82em;
+font-style:italic;
+cursor:pointer;
+}
+input {
+margin-right: 0.5em;
+max-width:100%;
+}
+</style>
+</head>
+<body>
+<div method="get" target="_blank" class="container">
+	<div class="p-3">
+	<h2 class="text-center mt-3">KHẢO SÁT Ý KIẾN QUÝ VỊ CHỦ & QUẢN LÝ THẨM MỸ VIỆN, SPA, PHÒNG KHÁM...</h2>
+		<div class="row">
+			<h4>1. Hiện nay, Quý khách đang muốn phát triển dịch vụ nào nhất?</h4>
+			<div>
+				<label><input name="DichVu" data-show="ChiTietNangCo" type="checkbox" value="NangCo"/>Nâng cơ</label>
+				<label><input name="DichVu" data-show="ChiTietTrietLong" type="checkbox" value="TrietLong"/>Triệt lông</label>
+				<label><input name="DichVu" data-show="ChiTietTriNam" type="checkbox" value="TriNam"/>Trị nám</label>
+				<label><input name="DichVu" data-show="ChiTietXoaXam" type="checkbox" value="XoaXam"/>Xoá xăm</label>
+				<label><input name="DichVu" data-show="ChiTietTriSeo" type="checkbox" value="TriSeo"/>Trị sẹo</label>
+				<label><input name="DichVu" data-show="ChiTietGiamBeo" type="checkbox" value="GiamBeo"/>Giảm béo</label>
+				<label><input name="DichVu" data-show="ChiTietTreHoaDa" type="checkbox" value="TreHoaDa"/>Trẻ hoá da</label>
+				<label><input name="DichVu" data-show="ChiTietTriMun" type="checkbox" value="TriMun"/>Trị mụn</label>
+				<label><input name="DichVu" data-show="ChiTietXoaNhan" type="checkbox" value="XoaNhan"/>Xoá nhăn</label>
+				<label><input name="DichVu" data-show="ChiTietDieuTriMachMau" type="checkbox" value="DieuTriMachMau"/>Điều trị mạch máu</label>
+				<label><input name="DichVu" placeholder="Dịch vụ khác"/></label>
+				<label><input type="button" value="Công nghệ" id="CongNghe"/></label>
+			</div>
+		</div>
+
+		<div class="row" id="DichVu">
+			<div id="ChiTietNangCo">
+				<h6>Với dịch vụ nâng cơ, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuNangCo" type="checkbox"/>RF</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Er:YAG</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Áp lực khí</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Hồng Ngoại (IR)</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Needle Fractional RF</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Pico MLA</label>
+					<label><input name="DichVuNangCo" type="checkbox"/>Fractional CO2</label>
+					<label><input name="DichVuNangCo" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietTrietLong">
+				<h6>Với dịch vụ triệt lông, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuTrietLong" type="checkbox"/>Diode laser</label>
+					<label><input name="DichVuTrietLong" type="checkbox"/>IPL (AS xung cường độ cao)</label>
+					<label><input name="DichVuTrietLong" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuTrietLong" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietTriNam">
+				<h6>Với dịch vụ trị nám, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuTriNam" type="checkbox"/>Pico</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Q-Switch</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Fractional RF Needle</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Er:YAG</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Er:Glass</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Thulium</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>IPL (AS cường độ cao)</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Led</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Laser lạnh</label>
+					<label><input name="DichVuTriNam" type="checkbox"/>Plasma</label>
+					<label><input name="DichVuTriNam" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietXoaXam">
+				<h6>Với dịch vụ xoá xăm, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Pico Nd:YAG</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Pico Alexandrite</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Pico Ruby</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Q-Switch Nd:YAG</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Q-Switch Alexandrite</label>
+					<label><input name="DichVuXoaXam" type="checkbox"/>Q-Switch Ruby</label>
+					<label><input name="DichVuXoaXam" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietTriSeo">
+				<h6>Với dịch vụ trị sẹo, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional CO2</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Needle</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Er:YAG</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Pico MLA</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Tiêm áp suất Nano</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Hệ thống kim cắt đáy sẹo</label>
+					<label><input name="DichVuTriSeo" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietTriSeo">
+				<h6>Với dịch vụ trị sẹo, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional CO2</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Needle</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Fractional Er:YAG</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Pico MLA</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Tiêm áp suất Nano</label>
+					<label><input name="DichVuTriSeo" type="checkbox"/>Hệ thống kim cắt đáy sẹo</label>
+					<label><input name="DichVuTriSeo" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietGiamBeo">
+				<h6>Với dịch vụ giảm béo, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>RF</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Từ trường (Vận động cơ)</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Giảm béo lạnh</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Laser Diode</label>
+					<label><input name="DichVuGiamBeo" type="checkbox"/>Vi sóng</label>
+					<label><input name="DichVuGiamBeo" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietTreHoaDa">
+				<h6>Với dịch vụ trẻ hoá da, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>RF</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>IPL</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Hồng Ngoại (IR)</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Fractional Pico</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Fractional RF</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuTreHoaDa" type="checkbox"/>Q-Switch</label>
+					<label><input name="DichVuTreHoaDa" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+  
+			<div id="ChiTietTriMun">
+				<h6>Với dịch vụ trị mụn, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuTriMun" type="checkbox"/>Laser xung dài: AYG</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>IPL (AS cường độ cao)</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Fractional Needle</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Laser Dios (Bán dẫn)</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Ánh sáng led PDT</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Plasma</label>
+					<label><input name="DichVuTriMun" type="checkbox"/>Oxyjet</label>
+					<label><input name="DichVuTriMun" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietXoaNhan">
+				<h6>Với dịch vụ xoá nhăn, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>RF</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>HIFU</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Hồng Ngoại (IR)</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Fractional Pico</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Fractional RF</label>
+					<label><input name="DichVuXoaNhan" type="checkbox"/>Laser xung dài</label>
+					<label><input name="DichVuXoaNhan" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+			<div id="ChiTietDieuTriMachMau">
+				<h6>Với dịch vụ điều trị mạch máu, Quý khách đang sử dụng hoặc quan tâm đến những công nghệ nào nhất?</h6>
+				<div>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>Dye Laser</label>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>Long Pulse</label>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>IPL</label>
+					<label><input name="DichVuDieuTriMachMau" type="checkbox"/>SmartCure</label>
+					<label><input name="DichVuDieuTriMachMau" placeholder="Công nghệ khác"/></label>
+				</div>
+			</div>
+
+		</div><!-- DichVu -->
+
+		<div class="row">
+			<h4>2. Quý khách mong muốn nhà cung cấp đáp ứng những điều gì nhất?</h4>
+			<div>
+				<label><input name="MongMuon" type="checkbox"/>Phục vụ nhanh, có sẵn sàng hóa</label>
+				<label><input name="MongMuon" type="checkbox"/>Chỉ cần tốt, giá cả không quan trọng</label>
+				<label><input name="MongMuon" type="checkbox"/>Giá rẻ, thanh toán linh hoạt</label>
+				<label><input name="MongMuon" type="checkbox"/>Phải có thương hiệu, đẳng cấp</label>
+				<label><input name="MongMuon" type="checkbox"/>Hàng chính hãng có giấy tờ</label>
+				<label><input name="MongMuon" placeholder="Nhu cầu khác"/></label>
+			</div>
+		</div>
+
+		<div class="row">
+			<h4>3. Quý khách có thể đầu tư cho việc mua sắm các công nghệ và sản phẩm ở mức nào?</h4>
+			<div>
+				<label><input name="DauTu" type="checkbox"/>Từ 2 đến 5 tỷ</label>
+				<label><input name="DauTu" type="checkbox"/>Từ 1 đến 2 tỷ</label>
+				<label><input name="DauTu" type="checkbox"/>Từ 500 triệu đến 1 tỷ</label>
+				<label><input name="DauTu" type="checkbox"/>Từ 200 triệu đến 500 triệu</label>
+				<label><input name="DauTu" type="checkbox"/>Dưới 200 triệu</label>
+				<label><input name="DauTu" placeholder="Mức cụ thể khác"/></label>
+			</div>
+		</div>
+
+		<div class="row">
+			<h4>4. Trong vòng 3-6 tháng tới, Quý khách có dự định...</h4>
+			<div>
+				<label><input name="DuDinh" type="checkbox"/>Đầu tư thiết bị mới</label>
+				<label><input name="DuDinh" type="checkbox"/>Quan tâm tìm hiểu công nghệ mới</label>
+				<label><input name="DuDinh" type="checkbox"/>Tham gia các hội thảo chuyên ngành</label>
+				<label><input name="DuDinh" type="checkbox"/>Muốn nhà cung cấp tư vấn trực tiếp các công nghệ mới</label>
+				<label><input name="DuDinh" type="checkbox"/>Dưới 200 triệu</label>
+				<label><input name="DuDinh" placeholder="Dự định khác"/></label>
+			</div>
+		</div>
+
+		<input id="TongHop" type="button" value="Tổng kết" class="text-center">
+
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('input[name="DichVu"],input[name="MongMuon"],input[name="DauTu"],input[name="DuDinh"]').each(function(){
+		var TheVal=($(this).val()=="on") ? $(this).parent().text() : $(this).val();
+		$(this).val(TheVal);
+	});
+	
+	$('div[id^="ChiTiet"]').css({"display":"none"});
+	
+	$("body").bind("click","#CongNghe",function(){
+		$('input[name="DichVu"]').each(function(){
+			if ($(this).is(':checked')) {
+				$('#'+$(this).data("show")).css({"display":"block"});
+			}
+			else {
+				$('#'+$(this).data("show")).css({"display":"none"});
+			}
+		});
+	});
+
+	$("h4").addClass("mt-5");
+});
+
+</script>
+</body>
+</html>
